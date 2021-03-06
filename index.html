@@ -20,41 +20,65 @@
   <body>
     <header>
         <div class="container-fluid navalert-container">
-            <div class="container-fluid alert-container">
-              <div class="row">
-                <div class="col-12 d-none d-sm-block">
-                  <div class="alert alert-primary alert-dismissible" role="alert">
-                    <strong>Covid-19!</strong> Due to Covid-19 we've made some
-                    changes to how we do business.
-                    <a
-                      class="text-uppercase font-weight-bold"
-                      data-toggle="modal"
-                      data-target="#covid-info-modal"
-                      >Click here</a
-                    >
-                    For More Details.
-                    <!-- The following <button> and its contexts were taken directly from the Bootstrap section on Alerts
-                      but then styled by my own code -->
-                    <button
-                      type="button"
-                      class="close"
-                      data-dismiss="alert"
-                      aria-label="Close"
-                    >
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
+          <div class="container-fluid alert-container">
+            <div class="row">
+              <div class="col-12 d-none d-sm-block">
+                <div class="alert alert-primary alert-dismissible" role="alert">
+                  <strong>Covid-19!</strong> Due to Covid-19 we've made some
+                  changes to how we do business.
+                  <a
+                    class="text-uppercase font-weight-bold"
+                    data-toggle="modal"
+                    data-target="#covid-info-modal"
+                    >Click here</a
+                  >
+                  For More Details.
+                  <!-- The following <button> and its contexts were taken directly from the Bootstrap section on Alerts
+                    but then styled by my own code -->
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="alert"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
                 </div>
               </div>
             </div>
-      <nav class="navbar navbar-light bg-light navbar-expand-sm">
-        <a href="index.html" class="navbar-brand">Palm Free Irish Soap</a>
-        <a class="nav-link" href="index.html">Home</a>
-        <a class="nav-link" href="about.html">About</a>
-        <a class="nav-link" href="gallery.html">Gallery</a>
-        <a class="nav-link" href="contact.html">Contact</a>
-      </nav>
-    </header>
+          </div>
+          <nav class="navbar navbar-light bg-light navbar-expand-sm">
+            <a href="index.html" class="navbar-brand">Palm Free Irish Soap</a>
+  
+            <button
+              class="navbar-toggler ml-auto"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto">
+                <li class="active nav-item mr-2">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item mr-2">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item mr-2">
+                  <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item mr-2">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
     <div class="container-fluid hero-container"></div>
 
 
