@@ -156,4 +156,42 @@ header {
     }
   }
 
-  /*-------------------------------------------------------------------- About Us Section*/
+  /*-------------------------------------------------------------------- Footer*/
+
+  footer {
+    background: #444;
+    color: lightgrey;
+    font-family: Roboto;
+    padding: 30px;
+    margin-top: 40px;
+  }
+  
+  /* Code for .vert-line was partially sourced from https://www.w3schools.com/howto/howto_css_vertical_line.asp */
+  .vert-line-right {
+    border-right: 1px solid lightgrey;
+    height: 3rem;
+  }
+  
+  .vert-line-left {
+    border-left: 1px solid lightgrey;
+    height: 3rem;
+  }
+  
+  footer li {
+    display: inline;
+    text-align: center;
+    list-style: none;
+  }
+  
+  footer ul {
+    padding: 0;
+  }
+  
+  .find-us i {
+    font-size: 2rem;
+    color: lightgrey;
+    padding-top: 5px;
+    padding: 2%;
+  }
+
+  /*-------------------------------------------------------------------- Footer*/
