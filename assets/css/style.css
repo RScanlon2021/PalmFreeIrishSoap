@@ -4,6 +4,10 @@ body {
   font-family: Roboto, "Noto Sans JP", sans-serif;
   color: #777777;
   background: #f8f9fa;
+
+  max-width: 3000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 hr {
@@ -301,4 +305,94 @@ footer ul {
   max-height: 1000px;
   -o-object-fit: cover;
   object-fit: cover;
+}
+
+/*-------------------------------------------------------------------- */
+/*-------------------------------------------------------------------- Contact Page*/
+
+#contact-footer {
+  margin-top: 0;
+}
+
+.contact-container {
+  position: relative;
+}
+
+.contact-image-container {
+  height: 1000px;
+  width: auto;
+
+  background: url(../images/lake.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.form-box {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  right: 5%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .form-box {
+    position: absolute;
+    top: 20%;
+    bottom: 25%;
+    left: 25%;
+    right: 25%;
+  }
+}
+
+@media only screen and (min-width: 2500px) {
+  .form-box {
+    position: absolute;
+    top: 20%;
+    bottom: 25%;
+    left: 35%;
+    right: 35%;
+  }
+}
+
+.contact-form {
+  background-color: rgba(60, 60, 60, 0.6);
+  color: #fff;
+  padding: 1rem;
+  height: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f8f9fa;
+}
+
+.contact-form h2 {
+  color: #f8f9fa;
+  margin-bottom: 20px;
+}
+
+input[type="radio"] {
+  display: inline-block;
+}
+
+.submit-button {
+  margin-bottom: 1rem;
+  border-radius: 2px;
+  padding: 1rem 2rem 1rem 2rem;
+  font-size: 100%;
+  color: #444;
+  border: 1px solid #fff;
+  float: right;
+}
+
+.submit-button:hover {
+  color: #fff;
+  background: #444;
 }
