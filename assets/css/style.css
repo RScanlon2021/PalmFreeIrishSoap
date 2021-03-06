@@ -121,4 +121,39 @@ header {
     font-weight: bold;
   }
 
+/*-------------------------------------------------------------------- About Us Section*/
+
+  .about-container {
+    font-size: 1.2rem;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  blockquote {
+    text-align: center;
+    padding-top: 10%;
+  }
+  
+  .about-link {
+    color: #777777;
+    border: 1px solid lightgrey;
+  }
+  
+  .about-link:hover {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background: #444;
+  }
+  
+  @media only screen and (max-width: 450px) {
+    .our-story-preview {
+      flex-direction: column-reverse;
+    }
+  }
+
   /*-------------------------------------------------------------------- About Us Section*/
