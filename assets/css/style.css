@@ -17,7 +17,7 @@ body {
     background-size: cover;
   }
 
-/*--------------------------------------------------------------------Navbar container*/
+/*--------------------------------------------------------------------Navbar Container*/
 
   header {
     position: fixed;
@@ -70,4 +70,21 @@ body {
     border: none;
   }
 
-  /*--------------------------------------------------------------------Navalert container*/
+  /*--------------------------------------------------------------------Navalert Cection*/
+
+  .navalert-container {
+    position: fixed;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .alert-container {
+    padding: 0;
+  }
+  
+  .alert {
+    margin: 0;
+    border-radius: 0;
+  }
+
+  /*-------------------------------------------------------------------- Product Section*/
