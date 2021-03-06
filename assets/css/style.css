@@ -1,90 +1,90 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100..700&family=Noto+Sans+JP:wght@100..700");
 
 body {
-    font-family: Roboto, "Noto Sans JP", sans-serif;
-    color: #777777;
-    background: #f8f9fa;
-  }
-
-  /*--------------------------------------------------------------------Hero container*/
-  .hero-container {
-    height: 100vh;
-  
-    background: url(../images/lemon-barsX3.jpg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+  font-family: Roboto, "Noto Sans JP", sans-serif;
+  color: #777777;
+  background: #f8f9fa;
+}
 
 /*--------------------------------------------------------------------Navbar Container*/
 
-  header {
-    position: fixed;
-    z-index: 999;
-  }
-  
-  .navbar {
-    position: fixed;
-    margin-bottom: 0;
-    border: 0;
-    width: 100%;
-    z-index: 1;
-  }
-  
-  .navbar-brand {
-    font-family: Roboto;
-    font-size: 2.2rem;
-    color: #444;
-  }
-  
-  .navbar .navbar-nav {
-    font-family: Roboto;
-  }
-  
-  .nav-link {
-    color: #444;
-    font-size: 1.2rem;
-  }
-  
-  .nav-link:hover {
-    text-decoration: underline;
-  }
-  
-  .navbar-toggler {
-    border: none;
-  }
-  
-  .details-collapse-container {
-    overflow: hidden;
-  }
-  
-  #details-collapse .text-center {
-    padding: 0;
-  }
-  
-  .card-body,
-  .card-body:focus {
-    background: #f8f9fa;
-    color: #777777;
-    border: none;
-  }
+header {
+  position: fixed;
+  z-index: 999;
+}
 
-  /*--------------------------------------------------------------------Navalert Cection*/
+.navbar {
+  position: fixed;
+  margin-bottom: 0;
+  border: 0;
+  width: 100%;
+  z-index: 1;
+}
 
-  .navalert-container {
-    position: fixed;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  
-  .alert-container {
-    padding: 0;
-  }
-  
-  .alert {
-    margin: 0;
-    border-radius: 0;
-  }
+.navbar-brand {
+  font-family: Roboto;
+  font-size: 2.2rem;
+  color: #444;
+}
 
-  /*-------------------------------------------------------------------- Product Section*/
+.navbar .navbar-nav {
+  font-family: Roboto;
+}
+
+.nav-link {
+  color: #444;
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.details-collapse-container {
+  overflow: hidden;
+}
+
+#details-collapse .text-center {
+  padding: 0;
+}
+
+.card-body,
+.card-body:focus {
+  background: #f8f9fa;
+  color: #777777;
+  border: none;
+}
+
+/*--------------------------------------------------------------------Navalert Cection*/
+
+.navalert-container {
+  position: fixed;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.alert-container {
+  padding: 0;
+}
+
+.alert {
+  margin: 0;
+  border-radius: 0;
+}
+
+/*--------------------------------------------------------------------Hero container*/
+.hero-container {
+  height: 100vh;
+
+  background: url(../images/lemon-barsX3.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*-------------------------------------------------------------------- Product Section*/
