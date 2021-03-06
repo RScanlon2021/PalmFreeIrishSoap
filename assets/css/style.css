@@ -7,20 +7,20 @@ body {
 }
 
 hr {
-    /* border, height, and background-image were taken from https://css-tricks.com/examples/hrs/ */
-    border: 0;
-    height: 1px;
-    width: 50%;
-    margin: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    background-image: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0.75),
-      rgba(0, 0, 0, 0)
-    );
-  }
+  /* border, height, and background-image were taken from https://css-tricks.com/examples/hrs/ */
+  border: 0;
+  height: 1px;
+  width: 50%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
 
 /*--------------------------------------------------------------------Navbar Container*/
 
@@ -106,193 +106,199 @@ header {
 /*-------------------------------------------------------------------- Product Section*/
 
 .product {
-    margin-bottom: 40px;
-  }
-  
-  .lead {
-    font-size: 1.5rem;
-    margin-bottom: 5%;
-  }
-  
-  .product img {
-    max-width: 100%;
-    max-height: 100%;
-    box-shadow: 5px 10px rgba(0, 0, 0, 0.05);
-    border-radius: 5% 25% 5% 25%;
-  }
-  /* the below attribute was taken from my notes aquired during the CSS module of the Code Institute course */
-  .product img:hover {
-    transform: scale(1.1);
-    transition: 0.5s ease-in-out;
-  }
-  
-  .gallery-link {
-    float: right;
-    color: #444;
-  }
-  
-  .gallery-link a:hover {
-    text-decoration: none;
-    color: #777777;
-    font-weight: bold;
-  }
+  margin-bottom: 40px;
+}
+
+.lead {
+  font-size: 1.5rem;
+  margin-bottom: 5%;
+}
+
+.product img {
+  max-width: 100%;
+  max-height: 100%;
+  box-shadow: 5px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 5% 25% 5% 25%;
+}
+/* the below attribute was taken from my notes aquired during the CSS module of the Code Institute course */
+.product img:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+}
+
+.gallery-link {
+  float: right;
+  color: #444;
+}
+
+.gallery-link a:hover {
+  text-decoration: none;
+  color: #777777;
+  font-weight: bold;
+}
 
 /*-------------------------------------------------------------------- About Us Section*/
 
-  .about-container {
-    font-size: 1.2rem;
-  }
-  
-  .about-image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%;
-  }
-  
-  blockquote {
-    text-align: center;
-    padding-top: 10%;
-  }
-  
-  .about-link {
-    color: #777777;
-    border: 1px solid lightgrey;
-  }
-  
-  .about-link:hover {
-    text-decoration: none;
-    border: none;
-    color: #fff;
-    background: #444;
-  }
-  
-  @media only screen and (max-width: 450px) {
-    .our-story-preview {
-      flex-direction: column-reverse;
-    }
-  }
+.about-container {
+  font-size: 1.2rem;
+}
 
-  /*-------------------------------------------------------------------- Footer*/
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
 
-  footer {
-    background: #444;
-    color: lightgrey;
-    font-family: Roboto;
-    padding: 30px;
-    margin-top: 40px;
+blockquote {
+  text-align: center;
+  padding-top: 10%;
+}
+
+.about-link {
+  color: #777777;
+  border: 1px solid lightgrey;
+}
+
+.about-link:hover {
+  text-decoration: none;
+  border: none;
+  color: #fff;
+  background: #444;
+}
+
+@media only screen and (max-width: 450px) {
+  .our-story-preview {
+    flex-direction: column-reverse;
   }
-  
-  /* Code for .vert-line was partially sourced from https://www.w3schools.com/howto/howto_css_vertical_line.asp */
-  .vert-line-right {
-    border-right: 1px solid lightgrey;
-    height: 3rem;
-  }
-  
-  .vert-line-left {
-    border-left: 1px solid lightgrey;
-    height: 3rem;
-  }
-  
-  footer li {
-    display: inline;
-    text-align: center;
-    list-style: none;
-  }
-  
-  footer ul {
-    padding: 0;
-  }
-  
-  .find-us i {
-    font-size: 2rem;
-    color: lightgrey;
-    padding-top: 5px;
-    padding: 2%;
-  }
+}
+
+/*-------------------------------------------------------------------- Footer*/
+
+footer {
+  background: #444;
+  color: lightgrey;
+  font-family: Roboto;
+  padding: 30px;
+  margin-top: 40px;
+}
+
+/* Code for .vert-line was partially sourced from https://www.w3schools.com/howto/howto_css_vertical_line.asp */
+.vert-line-right {
+  border-right: 1px solid lightgrey;
+  height: 3rem;
+}
+
+.vert-line-left {
+  border-left: 1px solid lightgrey;
+  height: 3rem;
+}
+
+footer li {
+  display: inline;
+  text-align: center;
+  list-style: none;
+}
+
+footer ul {
+  padding: 0;
+}
+
+.find-us i {
+  font-size: 2rem;
+  color: lightgrey;
+  padding-top: 5px;
+  padding: 2%;
+}
 
 /*-------------------------------------------------------------------- */
 /*-------------------------------------------------------------------- About Us Page*/
 
 #method-section {
-    margin-bottom: 3.5rem;
+  margin-bottom: 3.5rem;
+}
+
+.about-section,
+.iframe-outer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  display: block;
+}
+
+.about-image-container img {
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.about-text {
+  text-align: center;
+  margin: auto;
+}
+
+.about-text h2 {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .about-container {
+    padding-top: 8rem;
   }
-  
-  .about-section,
+}
+
+@media only screen and (min-width: 700px) {
   .iframe-outer-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    display: block;
-  }
-  
-  .about-image-container img {
-    width: 100%;
-    margin-top: 5rem;
-    margin-bottom: 2rem;
-  }
-  
-  .about-text {
-    text-align: center;
+    max-width: 500px;
     margin: auto;
   }
-  
-  .about-text h2 {
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-  }
-  
-  @media only screen and (max-width: 700px) {
-    .about-container {
-      padding-top: 8rem;
-    }
-  }
-  
-  @media only screen and (min-width: 700px) {
-    .iframe-outer-container {
-      max-width: 500px;
-      margin: auto;
-    }
-  }
+}
 
-  /*-------------------------------------------------------------------- */
+/*-------------------------------------------------------------------- */
 /*-------------------------------------------------------------------- Gallery Page*/
 
 #gallery-photos {
-    clear: both;
-    -moz-column-count: 2;
-         column-count: 2;
-    -moz-column-gap: 0;
-         column-gap: 0;
-    line-height: 0;
-    padding-top: 5rem;
-    padding-bottom: 0;
+  clear: both;
+  -moz-column-count: 2;
+  column-count: 2;
+  -moz-column-gap: 0;
+  column-gap: 0;
+  line-height: 0;
+  padding-top: 5rem;
+  padding-bottom: 0;
+}
+
+#gallery-photos img {
+  max-width: 100%;
+}
+
+#gallery-footer {
+  margin-top: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  #gallery-photos {
+    -moz-column-count: 3;
+    column-count: 3;
   }
-  
-  #gallery-photos img {
-    max-width: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+  #gallery-photos {
+    -moz-column-count: 4;
+    column-count: 4;
   }
-  
-  #gallery-footer {
-    margin-top: 0;
+}
+
+@media only screen and (max-width: 397px) {
+  #gallery-photos {
+    padding-top: 7.2rem;
   }
-  
-  @media only screen and (min-width: 768px) {
-    #gallery-photos {
-      -moz-column-count: 3;
-           column-count: 3;
-    }
-  }
-  
-  @media only screen and (min-width: 1024px) {
-    #gallery-photos {
-      -moz-column-count: 4;
-           column-count: 4;
-    }
-  }
-  
-  @media only screen and (max-width: 397px) {
-    #gallery-photos {
-      padding-top: 7.2rem;
-    }
-  }
+}
+
+#gallery-modal img {
+  max-height: 1000px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
