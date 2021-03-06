@@ -210,4 +210,50 @@ header {
     padding: 2%;
   }
 
-  /*-------------------------------------------------------------------- Footer*/
+/*-------------------------------------------------------------------- */
+/*-------------------------------------------------------------------- About Us Page*/
+
+#method-section {
+    margin-bottom: 3.5rem;
+  }
+  
+  .about-section,
+  .iframe-outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    display: block;
+  }
+  
+  .about-image-container img {
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .about-text {
+    text-align: center;
+    margin: auto;
+  }
+  
+  .about-text h2 {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .about-container {
+      padding-top: 8rem;
+    }
+  }
+  
+  @media only screen and (min-width: 700px) {
+    .iframe-outer-container {
+      max-width: 500px;
+      margin: auto;
+    }
+  }
+
+  /*-------------------------------------------------------------------- */
+/*-------------------------------------------------------------------- Gallery Page*/
