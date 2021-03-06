@@ -79,6 +79,80 @@
         </div>
       </nav>
     </header>
+    <!-- Parts of this form were taken from my notes aquired during the 
+      course of the HTML module of the Code Institute course -->
+    <div class="contact-container">
+      <div class="contact-image-container"></div>
+      <div class="row form-box">
+        <div class="col">
+          <form
+            class="contact-form"
+            action="https://formdump.codeinstitute.net/"
+            method="POST"
+          >
+            <h2>Contact Us Below!</h2>
+            <label for="name">Name</label>
+            <input
+              class="text-input"
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Name"
+              required
+            />
+            <label for="phone">Phone</label>
+            <input
+              class="text-input"
+              type="text"
+              id="phone"
+              name="phone-number"
+              placeholder="Phone Number"
+            />
+            <label for="email">Email</label>
+            <input
+              class="text-input"
+              type="email"
+              id="email"
+              name="email-address"
+              placeholder="Email"
+            />
+            <label for="message">Please Type Your Message Below</label>
+            <textarea
+              name="contact-message"
+              id="message"
+              cols="30"
+              rows="5"
+              placeholder="Enter your messsage here..."
+              required
+            ></textarea>
+            <h6>How do you prefer to be contacted?</h6>
+            <label for="phone-radio">Phone</label>
+            <input
+              type="radio"
+              id="phone-radio"
+              name="contact-preference"
+              value="phone"
+              required
+            />
+            <label for="email-radio">Email</label>
+            <input
+              type="radio"
+              id="email-radio"
+              name="contact-preference"
+              value="email"
+            />
+            <label for="either">Either</label>
+            <input
+              type="radio"
+              id="either"
+              name="contact-preference"
+              value="either"
+            />
+            <input class="submit-button" type="submit" value="Send!" />
+          </form>
+        </div>
+      </div>
+    </div>
     <footer>
       <div class="row text-center">
         <div class="col-md-4 d-none d-md-block vert-line-right">
