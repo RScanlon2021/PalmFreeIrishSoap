@@ -333,6 +333,12 @@ footer ul {
   background-size: cover;
 }
 
+@media only screen and (min-height: 1366px) {
+  .contact-image-container {
+    height: 1366px;
+  }
+}
+
 .form-box {
   position: absolute;
   top: 15%;
