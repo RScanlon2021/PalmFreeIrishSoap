@@ -74,7 +74,7 @@ The Gallery provides a grid layout of all the products on offer with each image 
 
 The Contact page provides a simple contact form for the visitor to in order to make contact with the company for any questions they may have.
 
-#### Features to Implement in Future
+### Features to Implement in Future
 
 The main feature to implement in the future is the ability to purchase the products. This will include a dedicated products page displaying each item accompanied by the item description and price. A shopping cart to hold the items as the customer continues to browse which would then link to a page to complete the purchase. 
 
@@ -161,12 +161,16 @@ An option to choose the language displayed in the website would be useful as the
 To deploy this page to **GitHub Pages** from its **GitHub** repository, the following steps were taken:
 
 1. Log into **GitHub**.
-2. From the list of repositories on the screen, select []
-3. From the menu items near the top of the page, select **Settings**.
+2. From the list of repositories on the screen, select [**PalmFreeIrishSoap**](https://github.com/RScanlon2021/PalmFreeIrishSoap.git)
+3. At the menu above the repository, select **Settings**.
 4. Scroll down to the **GitHub Pages** section.
 5. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**
-6. On selecting Master Branch the page is automatically refreshed, the website is now deployed.
-7. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website.
+6. Another drop-down menu will appear alongside a save button. Click **Save** which will then refresh the page.
+7. Return to the repository and on the right-hand side of the page, underneath **Environments** select **github-pages**.
+8. Select **View Deployment**.
+9. Your deployed website will appear, copy the URL.
+10. Return to the repository and on the right-hand side again select the **Settings** icon and paste the URL into the **Website** input bar, and select **Save Changes**. 
+11. Your site is now live on **GitHub Pages** and able to access easily from the repository page.
 
 
 
