@@ -48,7 +48,7 @@ This website is for **Palm Free Irish Soap**, a small, but growing, family-run b
 
 - As a curious visitor to the site I would like to arrive at their home page and know immediately what it is that they make, be encouraged to discover more about their business and find out what makes them different from other similar companies.
 
-  <img src="assets/images/contact-screenshot.png" style="zoom:20%;" />
+  <img src="assets/images/product-screenshot.png" style="zoom:20%;" />
 
 - I would like to see a visually striking website that grabs my interest and makes it easy to navigate from page to page.
 
