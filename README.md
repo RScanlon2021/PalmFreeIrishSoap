@@ -180,7 +180,7 @@ To deploy this page to **GitHub Pages** from its **GitHub** repository, the foll
 
 1. Install **VS Code** onto your computer [here.](https://code.visualstudio.com/)
 2. Upon being greeted by the *Welcome* tab click on **clone repository**.
-3. Enter the following link into the input bar.
+3. Enter the following link into the input bar https://github.com/RScanlon2021/PalmFreeIrishSoap.
 4. On the left hand side of the editor click on the **Run and Debug** icon and press the **Run and Debug** button.
 5. Select your desired browser from the dropdown and it will then open in a new window.
 

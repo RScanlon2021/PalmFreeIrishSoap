@@ -38,20 +38,19 @@ header {
   margin-bottom: 0;
   border: 0;
   width: 100%;
-  z-index: 1;
 }
 
 .navbar-brand {
   font-family: "Roboto";
   font-size: 2.2rem;
-  color: #444;
+  color: inherit;
 }
 
 @media only screen and (max-width: 450px) {
   .navbar-brand {
-    font-family: "Roboto";
     font-size: 1.2rem;
   }
+
   .navbar-toggler {
     font-size: 1rem;
   }
@@ -62,12 +61,13 @@ header {
 }
 
 .nav-link {
-  color: #444;
   font-size: 1.2rem;
+  color: inherit;
 }
 
 .nav-link:hover {
   text-decoration: underline;
+  color: #777777;
 }
 
 .navbar-toggler {
@@ -85,7 +85,6 @@ header {
 .card-body,
 .card-body:focus {
   background: #f8f9fa;
-  color: #777777;
   border: none;
 }
 
