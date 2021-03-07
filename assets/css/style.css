@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100..700&family=Noto+Sans+JP:wght@100..700");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Work+Sans:wght@300&display=swap');
 
 body {
-  font-family: "Roboto", "Noto Sans JP", sans-serif;
-  color: #777777;
+  font-family: "Work Sans", Poppins, sans-serif;
+  color: #444;
   background: #f8f9fa;
 
   max-width: 3000px;
@@ -38,10 +38,10 @@ header {
   margin-bottom: 0;
   border: 0;
   width: 100%;
+  border-bottom: 1px solid lightgray;
 }
 
 .navbar-brand {
-  font-family: "Roboto";
   font-size: 2.2rem;
   color: inherit;
 }
@@ -54,10 +54,6 @@ header {
   .navbar-toggler {
     font-size: 1rem;
   }
-}
-
-.navbar .navbar-nav {
-  font-family: "Roboto";
 }
 
 .nav-link {
@@ -196,7 +192,6 @@ blockquote {
 footer {
   background: #444;
   color: lightgrey;
-  font-family: "Roboto";
   padding: 30px;
   margin-top: 40px;
 }
