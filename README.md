@@ -1,4 +1,4 @@
-# Palm Free Irish Soap
+Palm Free Irish Soap
 
 **Milestone Project One:  User-Centric Frontend Development - Code Institute**
 
@@ -21,22 +21,37 @@ This website is for **Palm Free Irish Soap**, a small, but growing, family-run b
 ###### User 1 : Potential Customer
 
 - As a potential customer I am looking for products that highlight their environmentally conscious efforts in the manufacturing of their products, and reassure me of my ethical concerns.
+
 - I prefer small, family-owned businesses as it illustrates a less corporate and more honest approach.
+
 - I would like to see a simple layout that allows me to navigate through the website easily.
+
 - I want to be able to easily contact the business in order to put forward any questions I may have about the product or their business.
+
+  <img src="C:\Users\Rory\Pictures\Screenshots\Screenshot (47).png" style="zoom:20%;" />
+
 - What, if any, other online presence do they have so that I may keep up to date on their products. 
 
 ###### User 2: Potential Client
 
 - As a potential client I'm looking to know whether this company aligns with my own business model of environmentally conscious products and whether it will appeal to my own customer base and sell frequently.
+
+  <img src="C:\Users\Rory\Pictures\Screenshots\Screenshot (46).png" style="zoom:20%;" />
+
 - I would like to see a professional and stylish website that shows as much care as their products. 
+
 - I need to easily find their contact information and how best to contact them in regards to developing a business relationship.
+
 - What, if any, is its online presence so that I may keep up to date on their products and their business in general.
 
 ###### User 3: Curious Visitor
 
 - As a curious visitor to the site I would like to arrive at their home page and know immediately what it is that they make, be encouraged to discover more about their business and find out what makes them different from other similar companies.
+
+  <img src="C:\Users\Rory\Pictures\Screenshots\Screenshot (45).png" style="zoom:20%;" />
+
 - I would like to see a visually striking website that grabs my interest and makes it easy to navigate from page to page.
+
 - What I do **not** want to see is a lot of clutter that overwhelms me when I arrive at the Home page confusing me as to where to go next on their site. 
 
 ### Strategy

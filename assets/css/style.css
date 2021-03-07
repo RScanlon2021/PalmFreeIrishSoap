@@ -217,11 +217,11 @@ footer ul {
 /*-------------------------------------------------------------------- */
 /*-------------------------------------------------------------------- About Us Page*/
 
-#method-section {
+#method-link {
   margin-bottom: 3.5rem;
 }
 
-.about-section,
+.about-us-article,
 .iframe-outer-container {
   display: flex;
   justify-content: center;
