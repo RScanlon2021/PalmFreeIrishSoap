@@ -110,7 +110,7 @@ header {
 .hero-container {
   height: 100vh;
 
-  background: url(../images/lemon-barsX3.jpg) no-repeat center center;
+  background: url(../images/lemon-barsX3-centered.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -302,12 +302,6 @@ footer ul {
   #gallery-photos {
     -moz-column-count: 4;
     column-count: 4;
-  }
-}
-
-@media only screen and (max-width: 397px) {
-  #gallery-photos {
-    /* padding-top: 7.2rem; */
   }
 }
 
