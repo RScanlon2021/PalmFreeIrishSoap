@@ -49,6 +49,10 @@ header {
 
 @media only screen and (max-width: 450px) {
   .navbar-brand {
+    font-family: Roboto;
+    font-size: 1rem;
+  }
+  .navbar-toggler {
     font-size: 1rem;
   }
 }
