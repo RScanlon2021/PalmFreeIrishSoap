@@ -28,7 +28,7 @@ This website is for **Palm Free Irish Soap**, a small, but growing, family-run b
 
 - I want to be able to easily contact the business in order to put forward any questions I may have about the product or their business.
 
-  <img src="C:\Users\Rory\Pictures\Screenshots\Screenshot (47).png" style="zoom:20%;" />
+  <img src="assets/images/contact-screenshot.png" style="zoom:20%;" />
 
 - What, if any, other online presence do they have so that I may keep up to date on their products. 
 
@@ -36,7 +36,7 @@ This website is for **Palm Free Irish Soap**, a small, but growing, family-run b
 
 - As a potential client I'm looking to know whether this company aligns with my own business model of environmentally conscious products and whether it will appeal to my own customer base and sell frequently.
 
-  <img src="C:\Users\Rory\Pictures\Screenshots\Screenshot (46).png" style="zoom:20%;" />
+  <img src="assets/images/about-us-screenshot.png" style="zoom:20%;" />
 
 - I would like to see a professional and stylish website that shows as much care as their products. 
 
@@ -48,7 +48,7 @@ This website is for **Palm Free Irish Soap**, a small, but growing, family-run b
 
 - As a curious visitor to the site I would like to arrive at their home page and know immediately what it is that they make, be encouraged to discover more about their business and find out what makes them different from other similar companies.
 
-  <img src="C:\Users\Rory\Pictures\Screenshots\Screenshot (45).png" style="zoom:20%;" />
+  <img src="assets/images/contact-screenshot.png" style="zoom:20%;" />
 
 - I would like to see a visually striking website that grabs my interest and makes it easy to navigate from page to page.
 
