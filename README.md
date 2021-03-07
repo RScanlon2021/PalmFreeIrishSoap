@@ -2,6 +2,8 @@ Palm Free Irish Soap
 
 **Milestone Project One:  User-Centric Frontend Development - Code Institute**
 
+<img src="assets/images/multi-screen-mockup.png">
+
 This website is for **Palm Free Irish Soap**, a small, but growing, family-run business that focuses on a chemical-free, environmentally conscious form of soap using all-natural, vegan-friendly ingredients. The website has four pages: **Home**, **About Us**, **Gallery**, and a **Contact** page.  The website will serve as a profile for the business, it's philosophy and their products, with the ability to purchase items in future.
 
 -  The goals of this website are to:
