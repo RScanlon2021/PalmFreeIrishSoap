@@ -117,6 +117,12 @@ header {
   background-size: cover;
 }
 
+@media only screen and (max-width: 840px) {
+  .hero-container {
+    height: 80vh;
+  }
+}
+
 /*-------------------------------------------------------------------- Product Section*/
 
 .product {
