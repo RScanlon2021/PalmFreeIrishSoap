@@ -86,7 +86,7 @@ I would like to add a section in the home page where the company's Instagram acc
 
 For the 'Our Method' section of the About page I would like to have an associated progress bar with images, gifs or short videos in order to give a clear visual representation of the development of the product as it goes through each stage, from beginning to end. 
 
-A small FAQ section in the About page would also possibly be an added feature.
+A small FAQ section in the About page as an added feature.
 
 An option to choose the language displayed in the website would be useful as the business hopes to expand into the European market.
 
