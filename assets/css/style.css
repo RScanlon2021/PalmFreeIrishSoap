@@ -235,6 +235,8 @@ footer ul {
   margin-bottom: 3.5rem;
 }
 
+/* The top three attributes directly below were sourced from
+https://stackoverflow.com/questions/19026884/flexbox-center-horizontally-and-vertically */
 .about-us-article,
 .iframe-outer-container {
   display: flex;

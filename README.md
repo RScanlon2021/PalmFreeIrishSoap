@@ -118,6 +118,7 @@ An option to choose the language displayed in the website would be useful as the
   - https://getbootstrap.com/
   - https://www.w3schools.com/
   - https://css-tricks.com/
+  - https://stackoverflow.com/
   - **Code Institute** HTML/CSS module videos
   - Code Institute's Slack community for general advice.
 
