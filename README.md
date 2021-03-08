@@ -124,29 +124,32 @@ An option to choose the language displayed in the website would be useful as the
 ### Testing
 
 - [W3C CSS Validation](https://jigsaw.w3.org/css-validator/)
-
 - [W3C Markup Validation](https://validator.w3.org/#validate_by_upload) 
 
   - All validations returned as "**No errors or warnings to show**"
-
-- The three user stories, *Potential Customer*, *Potential Client*, and *Curious Visitor*, helped structure the desired outcome. From first coming to the site, regardless of the page, they are met with a highly legible navbar with **Palm Free Irish Soap** clearly displayed. Without scrolling down they can navigate throughout the site and know in advance what you are expected to encounter; a Home page, an About page, a Gallery page, and a Contact page. If they are visiting in mobile view they will also have immediate access to the business contact details through a collapsible card within the navbar. At the footer then they will easily find the business contact details as well as icon links to the business' social media profiles, each opening on to a new tab.
-
-  As they scroll down the Home page they will encounter a row of just a few of their products, and below that then they will see a preview of the business' About Us page accompanied by images. This will encourage the visitors to explore more depending on what their priorities are.
-
-  The About Us page has a simple layout of a central image and the some text. Not overwhelming and easily readable. At the bottom then is an embedded YouTube video with controls containing an interview pertaining to the information written in the above text.
-
-  The Gallery page is a responsive grid layout of all their products. If an image is clicked on it opens up a controllable modal whereby they can view each image and transition between each as they see fit.
-
-  The contact form on the Contact page requires certain input on each input field. Name, message, and radio inputs are required, and if an invalid email is entered a small warning will pop up informing the visitor of the issue.
-
+- The three user stories, *Potential Customer*, *Potential Client*, and *Curious Visitor*, helped structure the desired outcome. From first coming to the site, regardless of the page, they are met with a highly legible navbar with **Palm Free Irish Soap** clearly displayed. At any point the user can access the fixed navbar and navigate throughout the site and know in advance what you are expected to encounter; a **Home page**, an **About page**, a **Gallery page**, and a **Contact page**. If they are visiting in mobile view they will also have immediate access to the business contact details through a collapsible card within the navbar. At the footer then they will easily find the business contact details as well as icon links to the business' social media profiles, each opening on to a new tab. When each icon is tested it brings the user, as intended, to their social media on a new tab.
+- **Home Page**
+  - On the **Home page** Product section there are three images and a small link in text. The text link when hovered changes to a higher font weight to communicate to the user that it is a call to action and each of the images are expected to, when clicked, to bring the user to the **Gallery page**. Each of those images and the link when tested work as intended.
+  - On the **Home page's** About Us section there are two blockquotes containing a preview of information regarding **Our Story** and **Our Method**, a related image for each, and a button link for each that is intended to bring the user to the About Us page. When tested the Our Story button brings the user to the top of the About Us page, and the Our Method button brings the user directly to the Our Method section of the About Us page.
+- **About Us Page**
+  - The **About Us** page has a simple layout of a central image and the some text. Not overwhelming and easily readable. At the bottom then is an embedded YouTube video with controls containing an interview pertaining to the information written in the above text. When tested the video player works as normal and each of the controls function as intended by the video hosting site. The Video itself is fully responsive when screen size is altered. 
+- **Gallery Page**
+  - The **Gallery** page is a responsive grid layout of all their products. If an image is clicked on it opens up a controllable modal whereby they can view each image and transition between each as they see fit. When tested the modal appears as intended however it does require the user to click on the modal in order for the keyboard controls to be activated otherwise it transitions automatically between Gallery images every 5 seconds.
+- **Contact Page**
+  - The contact form on the **Contact** page requires certain input on each input field. Name, message, and radio inputs are required, and if an invalid email is entered a small warning will pop up informing the visitor of the issue. The phone input is designated as a telephone input so that only numbers can be successfully submitted.
+  - When tested the form will reject any attempt at submission if any of the following occurs; 
+    - if no name is entered into the Name field
+    - if anything other than a numerical value is entered into the Phone field
+    - if any value entered into the Email field is missing an '@' character
+    - if no messaged is entered into the Message field
+    - and if none of the radio buttons are chosen.
+  - When viewed on a mobile device the Phone input field will activate a numerical keyboard rather than a full alpha-numerical keyboard. 
 - I tested the site on multiple browsers, including Chrome, Edge, Mozilla, and Opera, and also my own mobile devices on Chrome and Samsung Internet.
 
   - A few small issues did appear on my Samsung S10. The top images on the Gallery page were partially hidden underneath the header. This was rectified through a combination of adjusting the padding on the body, and reducing the font-size of the brand name and the hamburger icon.
-
 - The site was also tested using [BrowserStack](https://live.browserstack.com/dashboard#os=android&os_version=10.0&device=Samsung+Galaxy+S20+Ultra&device_browser=chrome&zoom_to_fit=true&full_screen=true&url=https%3A%2F%2Frscanlon2021.github.io%2FPalmFreeIrishSoap%2Fgallery.html%23carouselExampleControls&speed=1). An online browser and mobile device emulator. I viewed the website and tested its functionality on various browsers on multiple device sizes. 
 
   - Some tablet devices with unusual screen dimensions caused a blank space to appear underneath the footer. I was able to fix this for the main brands of tablet (iPad Pro) by increasing the height of the background image container on screens with larger than usual heights.
-
 - I have also changed the dimensions of my screen on each of the pages and tested for each way in which the pages responsivity adjusts itself and have yet to encounter any bug apart from the small issue listed as no.5 on the Project Barriers and Solutions section of this README.md file.
 
 ### Project Barriers and Solutions
