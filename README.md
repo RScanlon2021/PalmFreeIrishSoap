@@ -7,7 +7,7 @@ Palm Free Irish Soap
 This website is for **Palm Free Irish Soap**, a small, but growing, family-run business that focuses on a chemical-free, environmentally conscious form of soap using all-natural, vegan-friendly ingredients. The website has four pages: **Home**, **About Us**, **Gallery**, and a **Contact** page.  The website will serve as a profile for the business, it's philosophy and their products, with the ability to purchase items in future.
 
 -  The goals of this website are to:
-  - Introduce the visitor to their business, their business philosophy, and their product.
+  - Introduce the visitor to their business, their business philosophy, and their products.
   - Display their products in a clear and obvious way through the use of high quality images, with as little clutter as possible for the visitor to deal with.
   - Act as a means of building brand awareness as a traditional small business operating in the modern world.
   - Introduce potential customers to our products through an array of visually appealing imagery while highlighting our unique selling points laid out in our About page.
@@ -68,13 +68,13 @@ I wanted the website to provide a visually appealing structure so that potential
 
 All pages contain a responsive navbar and footer which allows for easy navigation throughout the site as well as externally with direct links to their various social media sites. The navbar will remain fixed to allow for easy navigation between pages. When in mobile view the navbar page links will revert into a collapsible icon with an additional collapsible card containing the contact details from the footer. The footer will contain only the social media links while in the mobile view.
 
-The Home page would provide a preview of the products in one section with links to the Gallery page, and the same with the About Us section. 
+The Home page will provide a preview of the products in one section with links to the Gallery page, and the same with the About Us section. 
 
 The About Us page would provide a simple introduction into the story of their company and the methods used in the manufacturing of the product. The page will also contain a YouTube video of an interview with the business owner regarding related content.
 
 The Gallery provides a grid layout of all the products on offer with each image able to be viewed through a modal whereby the user may transition through all other images.
 
-The Contact page provides a simple contact form for the visitor to in order to make contact with the company for any questions they may have.
+The Contact page provides a simple contact form for the visitor to in order to make contact with the company for any questions they may have. 
 
 ### Features to Implement in Future
 
@@ -109,6 +109,7 @@ An option to choose the language displayed in the website would be useful as the
 - **YouTube** as the host for the interview video
 - **AutoPrefixer** 
   - a VS Code extension used to make sure all CSS code is valid for all browsers.
+- **[BrowserStack](https://live.browserstack.com/dashboard#os=android&os_version=10.0&device=Samsung+Galaxy+S20+Ultra&device_browser=chrome&zoom_to_fit=true&full_screen=true&url=https%3A%2F%2Frscanlon2021.github.io%2FPalmFreeIrishSoap%2Fgallery.html%23carouselExampleControls&speed=1)**. An online browser and mobile device emulator. Used to view the website and test its functionality on various browsers on multiple device sizes. 
 - All images used in this site were obtained from the **Digital Marketing Associate of the Palm Free (Zero Waste) Irish Soap Ltd** with their express permission.
 
 ### Resources
@@ -118,7 +119,7 @@ An option to choose the language displayed in the website would be useful as the
   - https://www.w3schools.com/
   - https://css-tricks.com/
   - **Code Institute** HTML/CSS module videos
-  - Code Institute's Slack community
+  - Code Institute's Slack community for general advice.
 
 ### Testing
 
@@ -138,7 +139,13 @@ An option to choose the language displayed in the website would be useful as the
 
   The contact form on the Contact page requires certain input on each input field. Name, message, and radio inputs are required, and if an invalid email is entered a small warning will pop up informing the visitor of the issue.
 
-- The site was tested across multiple browsers and mobile devices and tablets. Thus far it has proven responsive as intended. 
+- I tested the site on multiple browsers, including Chrome, Edge, Mozilla, and Opera, and also my own mobile devices on Chrome and Samsung Internet.
+
+  - A few small issues did appear on my Samsung S10. The top images on the Gallery page were partially hidden underneath the header. This was rectified through a combination of adjusting the padding on the body, and reducing the font-size of the brand name and the hamburger icon.
+
+- The site was also tested using [BrowserStack](https://live.browserstack.com/dashboard#os=android&os_version=10.0&device=Samsung+Galaxy+S20+Ultra&device_browser=chrome&zoom_to_fit=true&full_screen=true&url=https%3A%2F%2Frscanlon2021.github.io%2FPalmFreeIrishSoap%2Fgallery.html%23carouselExampleControls&speed=1). An online browser and mobile device emulator. I viewed the website and tested its functionality on various browsers on multiple device sizes. 
+
+  - Some tablet devices with unusual screen dimensions caused a blank space to appear underneath the footer. I was able to fix this for the main brands of tablet (iPad Pro) by increasing the height of the background image container on screens with larger than usual heights.
 
 - I have also changed the dimensions of my screen on each of the pages and tested for each way in which the pages responsivity adjusts itself and have yet to encounter any bug apart from the small issue listed as no.5 on the Project Barriers and Solutions section of this README.md file.
 
@@ -152,11 +159,13 @@ An option to choose the language displayed in the website would be useful as the
    - I realised that the text that did style correctly was a different font from the one that didn't. It seems the font I had chosen (Exo) did not allow for italics, so I simply changed my secondary font.
 4. For my ''+ Our Details' collapsible button in the mobile navbar the presence of the nested button caused a horizontal scroll bar to appear across the site. 
    - This was fixed through the use of overflow: hidden; applied to the details-collapse-container.
-5. One issue I haven't solved is when viewing the home page on medium to small devices a thin white line appears between the hero image and the products section. Although barely noticeable it still requires  a solution.
+5. After deploying the website I noticed that the **Contact** page did not reach the full height of the browser on **iPad Pros**. 
+   - I was able to fix this for this by increasing the height of the background image container on screens with larger than usual heights.
+6. One issue I haven't solved is when viewing the home page on medium to small devices a thin white line appears between the hero image and the products section. Although barely noticeable it still requires  a solution.
 
 ### Version Control
 
-- **Git** and **Github**
+- **Git** and **GitHub**
 
 ### Deployment
 
@@ -174,7 +183,12 @@ To deploy this page to **GitHub Pages** from its **GitHub** repository, the foll
 10. Return to the repository and on the right-hand side again select the **Settings** icon and paste the URL into the **Website** input bar, and select **Save Changes**. 
 11. Your site is now live on **GitHub Pages** and able to access easily from the repository page.
 
+#### How to run this project on an online IDE
 
+1. You must first create a **Gitpod** account [here](https://www.gitpod.io/).
+2. The you must install the **Gitpod extension** onto your browser [here](https://www.gitpod.io/docs/browser-extension/).
+3. Log in to your **GitHub** account and go to the [PalmFreeIrishSoap](https://github.com/RScanlon2021/PalmFreeIrishSoap) repository. 
+4. Click on the green **Gitpod** button above the project file list to clone the repository.
 
 #### How to run this project on VS Code
 
