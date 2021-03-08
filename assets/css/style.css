@@ -60,7 +60,6 @@ header {
 .nav-link {
   font-size: 1.2rem;
   font-weight: 600;
-  color: inherit;
 }
 
 .nav-link:hover {
@@ -105,7 +104,7 @@ header {
 
 /*--------------------------------------------------------------------Hero container*/
 .hero-container {
-  height: 100vh;
+  height: 80vh;
 
   background: url(../images/lemon-barsX3-centered.jpg) no-repeat center center;
   -webkit-background-size: cover;
@@ -114,9 +113,9 @@ header {
   background-size: cover;
 }
 
-@media only screen and (max-width: 840px) {
+@media only screen and (min-width: 840px) {
   .hero-container {
-    height: 80vh;
+    height: 100vh;
   }
 }
 
@@ -308,7 +307,6 @@ footer ul {
 }
 
 #gallery-modal img {
-  max-height: 1000px;
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -335,6 +333,7 @@ footer ul {
   background-size: cover;
 }
 
+/* The below media query is specifically to target iPad Pro screen height */
 @media only screen and (min-height: 1366px) {
   .contact-image-container {
     height: 1366px;
@@ -360,9 +359,6 @@ footer ul {
 
 @media only screen and (min-width: 2500px) {
   .form-box {
-    position: absolute;
-    top: 20%;
-    bottom: 25%;
     left: 35%;
     right: 35%;
   }
@@ -375,9 +371,7 @@ footer ul {
   height: 100%;
 }
 
-input[type="text"],
-input[type="email"],
-textarea {
+.text-input {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;

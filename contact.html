@@ -103,9 +103,10 @@
             <label for="phone">Phone</label>
             <input
               class="text-input"
-              type="text"
+              type="tel"
               id="phone"
               name="phone-number"
+              pattern="[0-9]"
               placeholder="Phone Number"
             />
             <label for="email">Email</label>
@@ -118,6 +119,7 @@
             />
             <label for="message">Please Type Your Message Below</label>
             <textarea
+              class="text-input"
               name="contact-message"
               id="message"
               cols="30"
